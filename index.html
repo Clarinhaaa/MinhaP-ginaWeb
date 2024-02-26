@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/e8a3069a6d.js" crossorigin="anonymous"></script>
+
         <title>Sobre mim</title>
 
         <style>
@@ -31,7 +33,27 @@
             }
 
             p {
-                font-size:22px;
+                font-size:20px;
+            }
+
+            #infoGerais {
+                position: relative;
+                left: 38px;
+                top: 4px;
+            }
+
+            #myPfp {
+                width:25%;
+                height: 45%;
+                border-radius: 100%;
+                position: relative;
+                left: 105px;
+                top: -4px;
+                box-shadow: 3px 5px, 5px 10px rgb(255, 199, 114), 7px 15px deepskyblue;
+            }
+
+            #iconHeart {
+                font-size:small;
             }
 
             hr {
@@ -41,17 +63,7 @@
                 background-color: rgb(215, 58, 100);
                 position:relative;
                 transform: translate(-50%, 0);
-                top: -450px;
-            }
-
-            #myPfp {
-                width:25%;
-                height: 45%;
-                border-radius: 100%;
-                position: relative;
-                left: 105px;
-                top: -10px;
-                box-shadow: 3px 5px, 5px 10px rgb(255, 199, 114), 7px 15px deepskyblue;
+                top: -483px;
             }
 
         </style>
@@ -63,7 +75,20 @@
 
             <img id="myPfp" src="myPfp.png">
 
-            <p style="position:relative; left: 35px; top:-5px">Nome: Ana Clara de Oliveira Cavalcante<br>Idade: 17 anos<br>Escola: IFBA, campus paulo afonso<br></p>
+            <p id="infoGerais">
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Nome: Ana Clara de Oliveira Cavalcante<br>
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Idade: 17 anos<br>
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Escola: IFBA, campus paulo afonso<br>
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Curso: Técnico em Informática<br>
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Turma: 4° ano<br>
+                <i id="iconHeart" class="fa-solid fa-heart"></i>
+                Personalidade: criativa, metódica, esfor-<br>çada, empática e curiosa
+            </p>
 
             <hr>
         </div>

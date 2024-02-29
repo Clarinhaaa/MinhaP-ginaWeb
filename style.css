@@ -1,0 +1,95 @@
+body {
+    background-image: url(https://images.alphacoders.com/127/1274991.png);
+    color:rgb(215, 58, 100);
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+/*classes*/
+
+.center {
+    background-color:rgb(255, 176, 196);
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:1090px;
+    height:570px;
+    padding:25px;
+    border-radius:20px;
+}
+
+.linhaVertical {
+    border-left:4px solid;
+    height:620px;
+    position:absolute;
+    left:50%;
+    margin-left:-3px;
+    top:0;
+}
+
+/*imagens*/
+
+img {
+    box-shadow:3px 5px, 5px 10px rgb(255, 199, 114), 7px 15px deepskyblue;
+}
+
+#myPfp {
+    width:25%;
+    height:45%;
+    border-radius:100%;
+    position:relative;
+    left:113px;
+    top:5px;
+}
+
+#gaming {
+    width:17%;
+    height:40%;
+    position:absolute;
+    left:56%;
+    top:47%;
+    border-radius:20px;
+}
+
+#iconHeart {
+    font-size:small;
+}
+
+/*h1*/
+
+#infoGerais {
+    position:relative;
+    top:-14px;
+    left:105px;
+}
+
+#gostosEHobbies {
+    position: absolute;
+    left:64%;
+    top:1.78%;
+}
+
+/*p*/
+
+p {
+    font-size:20px;
+}
+
+#textoInfoGerais {
+    position:relative;
+    left:45px;
+    top:15px;
+}
+
+#textoGostos {
+    position:absolute;
+    left:55%;
+    top:15%;
+}
+
+#textoHobbies {
+    position:absolute;
+    left:77%;
+    top:50%;
+    text-align:right;
+}

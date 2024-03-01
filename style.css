@@ -42,12 +42,22 @@ img {
     top:5px;
 }
 
+#drawings {
+    width:15%;
+    height:37%;
+    position:absolute;
+    left:78%;
+    top:15%;
+    border-radius: 20px;
+
+}
+
 #gaming {
     width:17%;
     height:40%;
     position:absolute;
     left:56%;
-    top:47%;
+    top:52%;
     border-radius:20px;
 }
 
@@ -83,13 +93,13 @@ p {
 
 #textoGostos {
     position:absolute;
-    left:55%;
-    top:15%;
+    left:56%;
+    top:18%;
 }
 
 #textoHobbies {
     position:absolute;
-    left:77%;
-    top:50%;
+    left:75%;
+    top:60%;
     text-align:right;
 }
